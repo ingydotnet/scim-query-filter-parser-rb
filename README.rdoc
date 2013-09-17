@@ -1,0 +1,20 @@
+= Name
+
+scim-query-filter-parser - Parser for SCIM Filter Query Strings
+
+= Synopsis
+
+    require 'scim/query/filter/parser'
+
+    parser = SCIM::Query::Filter::Parser
+    parser.parse(filter_query_string)
+    rpn_stack = parser.rpn
+    rpn_tree = parser.tree
+
+= Description
+
+http://www.simplecloud.info/specs/draft-scim-api-01.html#query-resources
+
+= Copyright
+
+Copyright (c) 2013 Ingy döt Net. See LICENSE for further details.
