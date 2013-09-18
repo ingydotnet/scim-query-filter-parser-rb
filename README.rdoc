@@ -50,7 +50,7 @@ Or, optionally into this expression tree:
 
 = Code Status
 
-* [![Build Status](https://api.travis-ci.org/ingydotnet/scim-query-filter-parser.png)](https://travis-ci.org/ingydotnet/scim-query-filter-parser)
+* {<img src="https://travis-ci.org/ingydotnet/scim-query-filter-parser-rb.png" />}[https://travis-ci.org/ingydotnet/scim-query-filter-parser-rb]
 
 = Copyright
 
