@@ -6,14 +6,31 @@ scim-query-filter-parser - Parser for SCIM Filter Query Strings
 
     require 'scim/query/filter/parser'
 
-    parser = SCIM::Query::Filter::Parser
-    parser.parse(filter_query_string)
+    parser = SCIM::Query::Filter::Parser.new
+    rpn_array = parser.parse(filter_query_string)
     rpn_stack = parser.rpn
     rpn_tree = parser.tree
+
+    # or (in a single statement):
+    rpn_array = SCIM::Query::Filter::Parser.new.parse(filter_query_string).rpn
 
 = Description
 
 http://www.simplecloud.info/specs/draft-scim-api-01.html#query-resources
+
+= Methods
+
+`parser = SCIM::Query::Filter::Parser.new()`::
+    Creae a new parser object.
+
+`parser.parse(input)`::
+    Parse a SCIM filter query. Return the parser object (self) if successful.
+
+`array = parser.rpn`::
+    Get the RPN array created by the most recent parse.
+
+`tree = parser.tree`::
+    Get the parse result converted to a tree form.
 
 = Copyright
 
