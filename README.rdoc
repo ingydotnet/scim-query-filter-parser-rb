@@ -16,7 +16,23 @@ scim-query-filter-parser - Parser for SCIM Filter Query Strings
 
 = Description
 
+The SCIM spec describes a simple filter query language here:
 http://www.simplecloud.info/specs/draft-scim-api-01.html#query-resources
+
+This gem can parse one of these filter queries and produce a Reverse Polish
+Notation (RPN) stack representation.
+
+For example, parse this filter query string:
+
+    userType eq "Employee" and (emails co "example.com" or emails co "example.org")
+
+Into this RPN stack (array):
+
+    [userType, "Employee", eq, emails, "example.com", co, emails, "example.org", co, or ,and]
+
+Or, optionally into this expression tree:
+
+    [and, [eq, userType, "Employee"], [or, [co, emails, "example.com"], [co, emails, "example.org"]]]
 
 = Methods
 

@@ -34,6 +34,7 @@ end
 $test_parse_data = <<'...'
 
 []
+[]
 
 userName eq "bjensen"
 [userName,'"bjensen"',eq]
