@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-GemSpec = Gem::Specification.new do |gem|
+GemSpec ||= Gem::Specification.new do |gem|
   gem.name = 'scim-query-filter-parser'
   gem.version = '0.0.1'
   gem.license = 'MIT'
@@ -17,5 +17,5 @@ http://www.simplecloud.info/specs/draft-scim-api-01.html#query-resources
 
   gem.files = `git ls-files`.lines.map{|l|l.chomp}
 
-  gem.add_development_dependency 'json'
+  gem.add_development_dependency 'rake'
 end
