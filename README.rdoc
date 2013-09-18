@@ -1,9 +1,9 @@
+{<img src="https://badge.fury.io/rb/scim-query-filter-parser.png" alt="Gem Version" />}[http://badge.fury.io/rb/scim-query-filter-parser]
+{<img src="https://travis-ci.org/ingydotnet/scim-query-filter-parser-rb.png" />}[https://travis-ci.org/ingydotnet/scim-query-filter-parser-rb]
+
 = Name
 
 scim-query-filter-parser - Parser for SCIM Filter Query Strings
-
-{<img src="https://badge.fury.io/rb/scim-query-filter-parser.png" alt="Gem Version" />}[http://badge.fury.io/rb/scim-query-filter-parser]
-{<img src="https://travis-ci.org/ingydotnet/scim-query-filter-parser-rb.png" />}[https://travis-ci.org/ingydotnet/scim-query-filter-parser-rb]
 
 = Synopsis
 
