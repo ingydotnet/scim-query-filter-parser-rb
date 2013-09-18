@@ -17,7 +17,5 @@ http://www.simplecloud.info/specs/draft-scim-api-01.html#query-resources
 
   gem.files = `git ls-files`.lines.map{|l|l.chomp}
 
-  gem.add_development_dependency 'yaml'
   gem.add_development_dependency 'json'
-  gem.add_development_dependency 'wxyz'
 end
