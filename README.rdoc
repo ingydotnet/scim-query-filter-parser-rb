@@ -32,6 +32,10 @@ http://www.simplecloud.info/specs/draft-scim-api-01.html#query-resources
 `tree = parser.tree`::
     Get the parse result converted to a tree form.
 
+= Code Status
+
+* [![Build Status](https://api.travis-ci.org/ingydotnet/scim-query-filter-parser.png)](https://travis-ci.org/ingydotnet/scim-query-filter-parser)
+
 = Copyright
 
 Copyright (c) 2013 Ingy döt Net. See LICENSE for further details.
