@@ -2,6 +2,9 @@
 
 scim-query-filter-parser - Parser for SCIM Filter Query Strings
 
+{<img src="https://badge.fury.io/rb/scim-query-filter-parser.png" alt="Gem Version" />}[http://badge.fury.io/rb/scim-query-filter-parser]
+{<img src="https://travis-ci.org/ingydotnet/scim-query-filter-parser-rb.png" />}[https://travis-ci.org/ingydotnet/scim-query-filter-parser-rb]
+
 = Synopsis
 
     require 'scim/query/filter/parser'
@@ -47,11 +50,6 @@ Or, optionally into this expression tree:
 
 `tree = parser.tree`::
     Get the parse result converted to a tree form.
-
-= Code Status
-
-* {<img src="https://badge.fury.io/rb/scim-query-filter-parser.png" alt="Gem Version" />}[http://badge.fury.io/rb/scim-query-filter-parser]
-* {<img src="https://travis-ci.org/ingydotnet/scim-query-filter-parser-rb.png" />}[https://travis-ci.org/ingydotnet/scim-query-filter-parser-rb]
 
 = Copyright
 

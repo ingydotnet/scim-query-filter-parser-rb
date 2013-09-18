@@ -13,7 +13,7 @@ GemSpec ||= Gem::Specification.new do |gem|
 A parser for SCIM filter queries. Specced here:
 http://www.simplecloud.info/specs/draft-scim-api-01.html#query-resources
 .
-  gem.homepage = 'https://github.com/ingydotnet/scim-query-filter-parser'
+  gem.homepage = 'https://github.com/ingydotnet/scim-query-filter-parser-rb'
 
   gem.files = `git ls-files`.lines.map{|l|l.chomp}
 
