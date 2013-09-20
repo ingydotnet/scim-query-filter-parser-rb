@@ -60,6 +60,7 @@ class SCIM::Query::Filter::Parser
 
   # Split input into tokens
   def lex input
+    input = input.clone
     tokens = []
     while ! input.empty? do
       input.sub! NextToken, '' \
