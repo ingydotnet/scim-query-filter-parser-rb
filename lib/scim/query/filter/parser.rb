@@ -33,7 +33,7 @@ class SCIM::Query::Filter::Parser
   #----------------------------------------------------------------------------
   # Parse SCIM filter query into RPN stack:
   def parse input
-    @input = input.clone            # Save for error msgs
+    @input = input                  # Save for error msgs
     @tokens = lex input
     @rpn = parse_expr
     assert_eos
@@ -64,7 +64,7 @@ class SCIM::Query::Filter::Parser
     tokens = []
     while ! input.empty? do
       input.sub! NextToken, '' \
-        or fail "Can't lex input here '#{input}'"
+        or fail "Can't lex input here: '#{input}'"
       tokens.push $1
     end
     tokens
