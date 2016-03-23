@@ -1,5 +1,5 @@
-!(Gem Version)[https://badge.fury.io/rb/scim-query-filter-parser.png]
-!(Travis)[https://travis-ci.org/ingydotnet/scim-query-filter-parser-rb.png]
+![Gem Version](https://badge.fury.io/rb/scim-query-filter-parser.png)
+![Travis](https://travis-ci.org/ingydotnet/scim-query-filter-parser-rb.png)
 
 # SCIM Query Filter Parser
 
@@ -21,7 +21,7 @@ rpn_array = SCIM::Query::Filter::Parser.new.parse(filter_query_string).rpn
 
 # Description
 
-(The SCIM spec)[http://www.simplecloud.info/specs/draft-scim-api-01.html#query-resources]
+[The SCIM spec](http://www.simplecloud.info/specs/draft-scim-api-01.html#query-resources)
 describes a simple filter query language.
 
 This gem can parse one of these filter queries and produce a Reverse Polish
@@ -83,7 +83,6 @@ Or, optionally into this expression tree:
 
 Creae a new parser object.
 
-
 ## `SCIM::Query::Filter::Parser#parse(input)`
 
 Parse a SCIM filter query. Return the parser object (self) if successful.
@@ -98,4 +97,4 @@ Get the parse result converted to a tree form.
 
 # Copyright
 
-Copyright (c) 2013 Ingy döt Net. See (LICENSE)[./LICENSE] for further details.
+Copyright (c) 2013 Ingy döt Net. See [LICENSE](./LICENSE) for further details.
