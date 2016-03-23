@@ -1,0 +1,21 @@
+PATH
+  remote: .
+  specs:
+    scim-query-filter-parser (0.0.2)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.8.4)
+    rake (11.1.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  minitest
+  rake
+  scim-query-filter-parser!
+
+BUNDLED WITH
+   1.11.2
