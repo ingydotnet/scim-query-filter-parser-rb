@@ -4,8 +4,8 @@ $:.push File.expand_path("../lib", __FILE__)
 Gem::Specification.new do |s|
   s.name        = 'scim-query-filter-parser'
   s.version     = '0.0.2'
-  s.authors     = ['Ingy döt Net']
-  s.email       = ['ingy@ingy.net']
+  s.authors     = ['Ingy döt Net', 'Matthew A. Johnston']
+  s.email       = ['ingy@ingy.net', 'warmwaffles@gmail.com']
   s.homepage    = 'https://github.com/ingydotnet/scim-query-filter-parser-rb'
   s.summary     = 'SCIM Filter Query Parser'
   s.description = <<-TXT
@@ -14,7 +14,7 @@ http://www.simplecloud.info/specs/draft-scim-api-01.html#query-resources
 TXT
   s.license     = 'MIT'
 
-  s.files = Dir["{lib}/**/*", "README.rdoc"]
+  s.files = Dir["{lib}/**/*", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_development_dependency "rake"
