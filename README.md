@@ -97,4 +97,5 @@ Get the parse result converted to a tree form.
 
 # Copyright
 
-Copyright (c) 2013 Ingy döt Net. See [LICENSE](./LICENSE) for further details.
+Copyright (c) 2013-2018 Ingy döt Net.
+See [LICENSE](./LICENSE) for further details.
